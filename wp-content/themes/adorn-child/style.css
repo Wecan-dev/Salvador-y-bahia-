@@ -10,6 +10,14 @@ Template: adorn
 */
 
 /*custom*/
+@font-face {
+  font-family: 'timeless';
+  src: url("../adorn/custom/timeless.woff") format('woff');
+}
+body , h1,h2,h3,h4,h5,h6,p,a, span.item_text {
+	  font-family: 'timeless'!important;
+
+}
 .edge-pl-holder.edge-standard-layout.edge-no-space.edge-three-columns.edge-info-on-image {
     display: none;
 }
