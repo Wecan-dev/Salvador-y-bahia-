@@ -1,0 +1,143 @@
+/*
+Theme Name: Adorn Child
+Theme URI: http://adorn.edge-themes.com
+Description: A child theme of Adorn Theme
+Author: Edge Themes
+Author URI: http://themeforest.net/user/edge-themes
+Version: 1.0.1
+Text Domain: adorn
+Template: adorn
+*/
+
+/*custom*/
+.edge-pl-holder.edge-standard-layout.edge-no-space.edge-three-columns.edge-info-on-image {
+    display: none;
+}
+span.item_text, .edge-login-register-widget .edge-logged-in-user .edge-logged-in-user-inner>span, .edge-shopping-cart-holder .edge-header-cart .edge-cart-icon-text, .edge-side-menu-button-opener .edge-side-menu-lines, .edge-shopping-cart-holder .edge-header-cart .edge-cart-count, .woocommerce-pagination .page-numbers li span.current, .woocommerce-result-count, .edge-title .edge-title-holder .edge-breadcrumbs a , .select2-container--default.select2-container--open .select2-selection--single, .woocommerce .star-rating, .edge-blog-holder.edge-blog-masonry article .edge-post-read-more-button a span, .edge-header-vertical .edge-vertical-menu ul li a .edge-menu-arrow {
+    color: #caa975!important;
+}
+.edge-pli-text-outer, a.button.wc-backward, a.woocommerce-Button.button, a.checkout-button.button.alt.wc-forward, .edge-shopping-cart-dropdown .edge-cart-bottom .edge-btn-holder a {
+	background: #caa975!important;
+}
+
+.edge-main-menu>ul>li.edge-active-item>a span.item_outer .item_text {
+    border-bottom: 1px solid #caa975!important;
+}
+.widget.widget_nav_menu ul li a {
+    color: #caa975!important;
+
+}
+.edge-header-vertical .edge-vertical-area-widget-holder .widget.widget_nav_menu {
+	border-bottom: 1px solid #caa975!important;
+}
+
+.edge-header-vertical .edge-vertical-menu ul li a {
+    font-size: 16px!important;
+}
+.edge-header-vertical .edge-vertical-area-widget-holder .widget.widget_nav_menu ul li a {
+	font-size: 16px!important;
+}
+#rev_slider_1_1 .edge-dark.tparrows:before {
+    color: #ffffff!important;
+	font-weight: bold;
+}
+.edge-progress-bar.edge-progress-bar-dark .edge-pb-content-holder .edge-pb-content, .woocommerce-pagination .page-numbers li span:not(.next):before {
+    background-color: #cdaf7e!important;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    background: #caa975!important;
+}
+input.wpcf7-form-control.wpcf7-submit:hover {
+    background: #caa975e0!important;
+}
+.edge-blog-pagination ul li a.edge-pag-active {
+    color: #cdae7d!important;
+    border-bottom: 1px solid #cdae7d!important;
+}
+.edge-main-menu>ul>li>a:hover span.item_outer .item_text {
+    border-color: #cdae7d!important;
+}
+.edge-pl-text-inner, .form-row.place-order button , button.woocommerce-button.button.woocommerce-form-login__submit, p.form-row button {
+    background: #cdae7d!important;
+}
+
+.yith-wcwl-add-button a:after {
+	color: #212121!important;
+}
+.edge-woo-single-page .woocommerce-tabs ul.tabs>li.active, .edge-woo-single-page .woocommerce-tabs ul.tabs>li:hover, .edge-header-vertical .edge-vertical-menu ul li a:hover .item_text {
+    border-color: #cdae7d!important;
+}
+.edge-woo-single-page .woocommerce-tabs ul.tabs>li.active a, .edge-woo-single-page .woocommerce-tabs ul.tabs>li:hover a {
+	background-color: #cdae7d!important;
+}
+.yith-wcwl-wishlistaddedbrowse a:after, .yith-wcwl-wishlistexistsbrowse a:after {
+    content: "\4e";
+    color: #ffffff!important;
+}
+.yith-wcwl-add-button a:after {
+    color: #ffffff!important;
+}
+.yith-wcwl-add-button a:after {
+    color: #ffffff!important;
+}
+.edge-woocommerce-page.woocommerce-account .edge-woocommerce-account-navigation .woocommerce-MyAccount-navigation ul li.is-active a , .edge-blog-holder.edge-blog-masonry article .edge-post-info-date a  {
+	color: #cdae7d!important;
+
+}
+.edge-shopping-cart-dropdown .edge-cart-bottom .edge-btn-holder a , div#review_form_wrapper input#submit , a.button.wc-forward , button.single_add_to_cart_button.button.alt, .edge-btn.edge-btn-solid , button.woocommerce-Button.button, a.woocommerce-button.button.view{
+	background-color: #cdae7d!important;
+}
+a.edge-side-menu-button-opener.edge-icon-has-hover {
+    display: none!important;
+}
+.edge-header-vertical .edge-logo-wrapper a {
+    display: block;
+    position: relative;
+    height: 100px!important;
+}
+div#slide-1-layer-9 {
+    height: auto!important;
+}
+.edge-social-sidebar-holder {
+    display: none;
+}
+.edge-header-vertical .edge-logo-wrapper {
+	width: 200px!important;
+}
+.edge-fullscreen-search-holder.edge-animate {
+    background: #fff!important;
+}
+.edge-position-left-inner img {
+    object-fit: contain!important;
+}
+.edge-position-left-inner {
+    width: 200px!important;
+}
+.edge-social-sidebar-holder {
+    display: none!important;
+}
+p.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received , footer.edge-page-footer .textwidget {
+    color: #c1a176!important;
+    font-weight: bold!important;
+}
+.edge-google-map {
+    height: 0!important;
+}
+a.edge-view-cart {
+    font-size: 10px!important;
+}
+footer.edge-page-footer .edge-footer-top-holder {
+    background-color: #fff!important;
+}
+.edge-title {
+	background-color: #687b60!important;
+}
+.edge-title .edge-title-holder .edge-breadcrumbs span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+	color: #fff!important;
+}
+.edge-title .edge-title-holder .edge-page-title {
+	color: #c1a176!important;
+}
