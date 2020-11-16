@@ -40,6 +40,10 @@ function translate_text($translated) {
      $translated = str_ireplace('No products in the CARRITO.',  'NO HAY PRODUCTOS EN EL CARRITO',  $translated);
      $translated = str_ireplace('Why not return to our amazing shop and start filling it with products. Just click on the button below to instantly get back to the shop page. Oh, and while you are there, check out all of our mind-blowing discounts.',  'NO HAY PRODUCTOS EN EL CARRITO',  $translated);
      $translated = str_ireplace('Back to top',  'Volver',  $translated);
+     $translated = str_ireplace('Quantity',  'Cantidad',  $translated);
+     $translated = str_ireplace('Go Back Shopping',  'Volver a la tienda',  $translated);
+     $translated = str_ireplace('Quantity',  'Cantidad',  $translated);
+	
 
      return $translated;
 }
