@@ -18,9 +18,9 @@ body , h1,h2,h3,h4,h5,h6,p,a, span.item_text, .edge-row-grid-section span, texta
 	  font-family: 'timeless'!important;
 
 }
-.edge-pl-holder.edge-standard-layout.edge-no-space.edge-three-columns.edge-info-on-image {
+/*.edge-pl-holder.edge-standard-layout.edge-no-space.edge-three-columns.edge-info-on-image {
     display: none;
-}
+}*/
 span.item_text, .edge-login-register-widget .edge-logged-in-user .edge-logged-in-user-inner>span, .edge-shopping-cart-holder .edge-header-cart .edge-cart-icon-text, .edge-side-menu-button-opener .edge-side-menu-lines, .edge-shopping-cart-holder .edge-header-cart .edge-cart-count, .woocommerce-pagination .page-numbers li span.current, .woocommerce-result-count, .edge-title .edge-title-holder .edge-breadcrumbs a , .select2-container--default.select2-container--open .select2-selection--single, .woocommerce .star-rating, .edge-blog-holder.edge-blog-masonry article .edge-post-read-more-button a span, .edge-header-vertical .edge-vertical-menu ul li a .edge-menu-arrow {
     color: #caa975!important;
 }
