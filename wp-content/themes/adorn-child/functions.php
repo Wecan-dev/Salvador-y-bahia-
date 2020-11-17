@@ -17,33 +17,36 @@ add_filter('ngettext',  'translate_text');
 
 function translate_text($translated) {
      $translated = str_ireplace('Home',  'Inicio',  $translated);
-	 $translated = str_ireplace('No products in the carrito',  'No hay productos en el carrito',  $translated);
-     $translated = str_ireplace('Login',  'Ingresar',  $translated);
-     $translated = str_ireplace('Register',  'Registar',  $translated);
-     $translated = str_ireplace('Remember me',  'Recuerdame',  $translated);
-     $translated = str_ireplace('Repeat password',  'Repetir contraseña',  $translated);
-     $translated = str_ireplace('sign in',  'Registrarse',  $translated);
-     $translated = str_ireplace('My account',  'Mi cuenta',  $translated);
-     $translated = str_ireplace('Profile',  'Perfil',  $translated);
-     $translated = str_ireplace('Edit Profile',  'Editar Perfil',  $translated);
-     $translated = str_ireplace('Log out',  'Salir',  $translated);
-     $translated = str_ireplace('Lost your password?',  '¿Olvido su contraseña?',  $translated);
-     $translated = str_ireplace('User name',  'Usuario',  $translated);
-     $translated = str_ireplace('Password',  'Contraseña',  $translated);
      $translated = str_ireplace('Type here',  'Escribe aqui',  $translated);
-     $translated = str_ireplace('SEARCH RESULTS:',  'RESULTADOS DE LA BUSQUEDA:',  $translated);
-     $translated = str_ireplace('Type here',  'Escribe aqui',  $translated);
-     $translated = str_ireplace('If you are not happy with the results below please do another search',  'Pueba con otra busqueda',  $translated);
-     $translated = str_ireplace('No posts were found.',  'No se han encontrado entradas',  $translated);
-     $translated = str_ireplace('CART',  'CARRITO',  $translated);
+     $translated = str_ireplace('SEARCH RESULTS FOR',  'BUSCAR RESULTADOS PARA',  $translated);
+     $translated = str_ireplace('SEARCH RESULTS',  'BUSCAR RESULTADOS',  $translated);
+     $translated = str_ireplace('If you are not happy with the results below please do another search',  'Si no está satisfecho con los resultados a continuación, realice otra búsqueda
+',  $translated);
+     $translated = str_ireplace('No posts were found.',  'No se encontraron publicaciones.',  $translated);
+     $translated = str_ireplace('SEARCH RESULTS',  'Buscar resultados',  $translated);
+     $translated = str_ireplace('SEARCH HERE',  'Buscar',  $translated);
      $translated = str_ireplace('HELLO',  '¡HOLA!',  $translated);
-     $translated = str_ireplace('No products in the CARRITO.',  'NO HAY PRODUCTOS EN EL CARRITO',  $translated);
-     $translated = str_ireplace('Why not return to our amazing shop and start filling it with products. Just click on the button below to instantly get back to the shop page. Oh, and while you are there, check out all of our mind-blowing discounts.',  'NO HAY PRODUCTOS EN EL CARRITO',  $translated);
-     $translated = str_ireplace('Back to top',  'Volver',  $translated);
+     $translated = str_ireplace('Back to top',  'Volver arriba',  $translated);
+     $translated = str_ireplace('Cart',  'Carrito',  $translated);
+     $translated = str_ireplace('Checkout',  'Pagar',  $translated);
+     $translated = str_ireplace('VIEW CARRITO',  'Ver carrito',  $translated);
      $translated = str_ireplace('Quantity',  'Cantidad',  $translated);
+     $translated = str_ireplace('No products in the ',  'No hay productos en el',  $translated);
+     $translated = str_ireplace('Why not return to our amazing shop and start filling it with products. Just click on the button below to instantly get back to the shop page. Oh, and while you are there, check out all of our mind-blowing discounts.',  '¿Por qué no volver a nuestra increíble tienda y empezar a llenarla de productos? Simplemente haga clic en el botón de abajo para volver instantáneamente a la página de la tienda. Ah, y mientras estás allí, echa un vistazo a todos nuestros increíbles descuentos.
+',  $translated);
+     $translated = str_ireplace('YOUR CARRITO IS CURRENTLY EMPTY.',  'TU CARRITO ESTÁ ACTUALMENTE VACÍO.',  $translated);
+     $translated = str_ireplace('RETURN TO SHOP',  'VOLVER A LA TIENDA',  $translated);
+     $translated = str_ireplace('ADDING TO CART',  'Añadiendo al carrito',  $translated);
+     $translated = str_ireplace('SOLD',  'Vendido',  $translated);
+     $translated = str_ireplace('SHOPPING CARRITO',  'Carrito',  $translated);
+     $translated = str_ireplace('CARRITO TOTALS',  'Total',  $translated);
+     $translated = str_ireplace('APPLY COUPON',  'Aplicar cupón',  $translated);
+     $translated = str_ireplace('Update carrito',  'Actualizar carrito',  $translated);
+     $translated = str_ireplace('Coupon code',  'Código del cupón',  $translated);
      $translated = str_ireplace('Go Back Shopping',  'Volver a la tienda',  $translated);
-     $translated = str_ireplace('Quantity',  'Cantidad',  $translated);
-	
+     $translated = str_ireplace('PROCEED TO PAGAR',  'Finalizar compra',  $translated);
+     $translated = str_ireplace('removed',  'Eliminado',  $translated);
+     $translated = str_ireplace('Undo?',  '¿Deshacer?',  $translated);
 
      return $translated;
 }

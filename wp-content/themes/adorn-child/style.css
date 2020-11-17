@@ -14,7 +14,7 @@ Template: adorn
   font-family: 'timeless';
   src: url("../adorn/custom/timeless.woff") format('woff');
 }
-body , h1,h2,h3,h4,h5,h6,p,a, span.item_text {
+body , h1,h2,h3,h4,h5,h6,p,a, span.item_text, .edge-row-grid-section span, textarea#comment, .edge-woo-single-page .woocommerce-tabs #reviews .comment-respond .comment-reply-title, label, span.edge-out-of-stock, button.frm_button_submit {
 	  font-family: 'timeless'!important;
 
 }
@@ -148,4 +148,26 @@ footer.edge-page-footer .edge-footer-top-holder {
 }
 .edge-title .edge-title-holder .edge-page-title {
 	color: #c1a176!important;
+}
+button.frm_button_submit {
+    background-color: #c1a176!important;
+    border-radius: 0px!important;
+    border: 1px solid #c1a176!important;
+    padding: 15px 20px!important;
+}
+button.frm_button_submit:hover {
+    background-color: #fff!important;
+	color: #c1a176!important;
+    border-radius: 0px!important;
+    border: 1px solid #c1a176!important;
+    padding: 15px 20px!important;
+	transition: 0.5s!important;
+}
+.edge-logo-wrapper.edge-fullscreen-search-logo.edge-logo-wrapper {
+    display: none!important;
+}
+.edge-fullscreen-search-holder .edge-fullscreen-search-close-container a:before {
+	content: "CERRAR"!important;
+	font-family: 'timeless'!important;
+
 }
