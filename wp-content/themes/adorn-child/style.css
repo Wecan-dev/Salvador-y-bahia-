@@ -14,7 +14,7 @@ Template: adorn
   font-family: 'timeless';
   src: url("../adorn/custom/timeless.woff") format('woff');
 }
-body , h1,h2,h3,h4,h5,h6,p,a, span.item_text, .edge-row-grid-section span, textarea#comment, .edge-woo-single-page .woocommerce-tabs #reviews .comment-respond .comment-reply-title, label, span.edge-out-of-stock, button.frm_button_submit {
+body , h1,h2,h3,h4,h5,h6,p,a, span.item_text, .edge-row-grid-section span, textarea#comment, .edge-woo-single-page .woocommerce-tabs #reviews .comment-respond .comment-reply-title, label, span.edge-out-of-stock, button.frm_button_submit, .edge-woo-single-page .edge-single-product-summary .price .amount, span.posted_in, .edge-shopping-cart-dropdown .edge-cart-bottom {
 	  font-family: 'timeless'!important;
 
 }

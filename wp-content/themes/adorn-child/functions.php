@@ -36,7 +36,7 @@ function translate_text($translated) {
 ',  $translated);
      $translated = str_ireplace('YOUR CARRITO IS CURRENTLY EMPTY.',  'TU CARRITO ESTÁ ACTUALMENTE VACÍO.',  $translated);
      $translated = str_ireplace('RETURN TO SHOP',  'VOLVER A LA TIENDA',  $translated);
-     $translated = str_ireplace('ADDING TO CART',  'Añadiendo al carrito',  $translated);
+     $translated = str_ireplace('ADDING TO CARRITO',  'Añadiendo al carrito',  $translated);
      $translated = str_ireplace('SOLD',  'Vendido',  $translated);
      $translated = str_ireplace('SHOPPING CARRITO',  'Carrito',  $translated);
      $translated = str_ireplace('CARRITO TOTALS',  'Total',  $translated);
@@ -46,7 +46,7 @@ function translate_text($translated) {
      $translated = str_ireplace('Go Back Shopping',  'Volver a la tienda',  $translated);
      $translated = str_ireplace('PROCEED TO PAGAR',  'Finalizar compra',  $translated);
      $translated = str_ireplace('removed',  'Eliminado',  $translated);
-     $translated = str_ireplace('Undo?',  '¿Deshacer?',  $translated);
+     $translated = str_ireplace('',  '',  $translated);
 
      return $translated;
 }
