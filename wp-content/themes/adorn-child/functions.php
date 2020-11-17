@@ -31,7 +31,7 @@ function translate_text($translated) {
      $translated = str_ireplace('Checkout',  'Pagar',  $translated);
      $translated = str_ireplace('VIEW CARRITO',  'Ver carrito',  $translated);
      $translated = str_ireplace('Quantity',  'Cantidad',  $translated);
-     $translated = str_ireplace('No products in the ',  'No hay productos en el',  $translated);
+     $translated = str_ireplace('No products in the ',  'No hay productos en el ',  $translated);
      $translated = str_ireplace('Why not return to our amazing shop and start filling it with products. Just click on the button below to instantly get back to the shop page. Oh, and while you are there, check out all of our mind-blowing discounts.',  '¿Por qué no volver a nuestra increíble tienda y empezar a llenarla de productos? Simplemente haga clic en el botón de abajo para volver instantáneamente a la página de la tienda. Ah, y mientras estás allí, echa un vistazo a todos nuestros increíbles descuentos.
 ',  $translated);
      $translated = str_ireplace('YOUR CARRITO IS CURRENTLY EMPTY.',  'TU CARRITO ESTÁ ACTUALMENTE VACÍO.',  $translated);
@@ -46,7 +46,8 @@ function translate_text($translated) {
      $translated = str_ireplace('Go Back Shopping',  'Volver a la tienda',  $translated);
      $translated = str_ireplace('PROCEED TO PAGAR',  'Finalizar compra',  $translated);
      $translated = str_ireplace('removed',  'Eliminado',  $translated);
-     $translated = str_ireplace('',  '',  $translated);
+	 $translated = str_ireplace('Page',  'Página',  $translated);
+     $translated = str_ireplace('Categories',  'Categorías',  $translated);
 
      return $translated;
 }

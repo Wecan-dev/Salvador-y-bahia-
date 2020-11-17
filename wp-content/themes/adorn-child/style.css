@@ -14,7 +14,7 @@ Template: adorn
   font-family: 'timeless';
   src: url("../adorn/custom/timeless.woff") format('woff');
 }
-body , h1,h2,h3,h4,h5,h6,p,a, span.item_text, .edge-row-grid-section span, textarea#comment, .edge-woo-single-page .woocommerce-tabs #reviews .comment-respond .comment-reply-title, label, span.edge-out-of-stock, button.frm_button_submit, .edge-woo-single-page .edge-single-product-summary .price .amount, span.posted_in, .edge-shopping-cart-dropdown .edge-cart-bottom {
+body , h1,h2,h3,h4,h5,h6,p,a, span.item_text, .edge-row-grid-section span, textarea#comment, .edge-woo-single-page .woocommerce-tabs #reviews .comment-respond .comment-reply-title, label, span.edge-out-of-stock, button.frm_button_submit, .edge-woo-single-page .edge-single-product-summary .price .amount, span.posted_in, .edge-shopping-cart-dropdown .edge-cart-bottom,  .edge-pl-holder .edge-pli-inner .edge-pli-image .edge-pli-out-of-stock, font, p span {
 	  font-family: 'timeless'!important;
 
 }
@@ -170,4 +170,21 @@ button.frm_button_submit:hover {
 	content: "CERRAR"!important;
 	font-family: 'timeless'!important;
 
+}
+.edge-shopping-cart-holder .edge-header-cart .edge-cart-icon-text {
+	text-transform: uppercase!important;
+}
+@media only screen and (max-width: 768px){
+	.edge-mobile-header .edge-mobile-logo-wrapper img {
+		height: 80%!important;
+	}
+	.edge-mobile-logo-wrapper {
+		width: 150px!important;
+	}
+	.edge-pl-holder .edge-pl-categories {
+    float: none;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 20px!important;
+	}
 }
