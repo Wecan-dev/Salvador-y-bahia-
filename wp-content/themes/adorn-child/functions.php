@@ -36,7 +36,7 @@ function translate_text($translated) {
 ',  $translated);
      $translated = str_ireplace('YOUR CARRITO IS CURRENTLY EMPTY.',  'TU CARRITO ESTÁ ACTUALMENTE VACÍO.',  $translated);
      $translated = str_ireplace('RETURN TO SHOP',  'VOLVER A LA TIENDA',  $translated);
-     $translated = str_ireplace('ADDING TO CARRITO',  'Añadiendo al carrito',  $translated);
+     $translated = str_ireplace('ADDING TO CARRITO',  'Añadir al carrito',  $translated);
      $translated = str_ireplace('SOLD',  'Vendido',  $translated);
      $translated = str_ireplace('SHOPPING CARRITO',  'Carrito',  $translated);
      $translated = str_ireplace('CARRITO TOTALS',  'Total',  $translated);

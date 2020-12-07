@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2019-05-09T09:46:19+02:00\n"
-"PO-Revision-Date: 2020-11-18 14:29+0000\n"
+"PO-Revision-Date: 2020-11-30 13:09+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: adorn\n"
 "Language: es_VE\n"
@@ -4100,7 +4100,7 @@ msgstr ""
 
 #: framework/modules/blog/templates/parts/post-info/author.php:3
 msgid "By"
-msgstr ""
+msgstr "Por"
 
 #: framework/modules/blog/templates/parts/post-info/read-more.php:11
 msgid "Read More"
@@ -5409,7 +5409,7 @@ msgstr ""
 #: framework/modules/search/templates/types/slide-from-window-top.php:10
 #: framework/modules/widgets/search-opener/search-opener.php:86
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: framework/modules/search/options-map/map.php:17
 msgid "Search Page"
@@ -6962,7 +6962,7 @@ msgstr ""
 #: functions.php:668
 msgid "Adding to Cart..."
 msgstr ""
-"Añadiendo al carrito ...\n"
+"Añadir al carrito \n"
 
 #. translators: %s: title of menu item which is invalid
 #: includes/nav-menu/edit_custom_walker.php:74
@@ -7628,4 +7628,4 @@ msgstr ""
 
 #: woocommerce/product-searchform.php:27
 msgid "Search Products..."
-msgstr ""
+msgstr "Buscar..."

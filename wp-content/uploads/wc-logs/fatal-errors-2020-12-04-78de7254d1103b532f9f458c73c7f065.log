@@ -1,0 +1,12 @@
+2020-12-04T03:57:24+00:00 CRITICAL Out of memory (allocated 92274688) (tried to allocate 20480 bytes) en /var/www/html/Salvador-y-bahia/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php en la línea 842
+
+2020-12-04T12:20:55+00:00 CRITICAL Out of memory (allocated 23068672) (tried to allocate 20480 bytes) en /var/www/html/Salvador-y-bahia/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php en la línea 683
+
+2020-12-04T13:04:45+00:00 CRITICAL Object of class WP_Error could not be converted to string en /var/www/html/Salvador-y-bahia/wp-content/themes/adorn/framework/modules/woocommerce/shortcodes/product-list/product-list.php en la línea 561
+
+2020-12-04T13:05:35+00:00 CRITICAL Object of class WP_Error could not be converted to string en /var/www/html/Salvador-y-bahia/wp-content/themes/adorn/framework/modules/woocommerce/shortcodes/product-list/product-list.php en la línea 561
+
+2020-12-04T13:08:28+00:00 CRITICAL Object of class WP_Error could not be converted to string en /var/www/html/Salvador-y-bahia/wp-content/themes/adorn/framework/modules/woocommerce/shortcodes/product-list/product-list.php en la línea 561
+
+2020-12-04T13:44:25+00:00 CRITICAL Object of class WP_Error could not be converted to string en /var/www/html/Salvador-y-bahia/wp-content/themes/adorn/framework/modules/woocommerce/shortcodes/product-list/product-list.php en la línea 561
+

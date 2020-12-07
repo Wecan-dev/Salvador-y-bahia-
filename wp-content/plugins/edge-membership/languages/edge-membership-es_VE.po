@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2019-05-09T09:46:30+02:00\n"
-"PO-Revision-Date: 2020-11-17 14:21+0000\n"
+"PO-Revision-Date: 2020-11-29 12:58+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: edge-membership\n"
 "Language: es_VE\n"
@@ -234,7 +234,7 @@ msgstr ""
 #: shortcodes/login/templates/login-template.php:28
 #: shortcodes/login/templates/login-template.php:33
 msgid "SIGN IN"
-msgstr "REGISTRARSE"
+msgstr "Ingresar"
 
 #: shortcodes/register/register.php:56
 msgid "You don't have permission to register"
@@ -273,8 +273,7 @@ msgstr ""
 
 #: widgets/login-widget/login-widget.php:22
 msgid "Sign In"
-msgstr ""
-"Registrarse\n"
+msgstr "Acceder"
 
 #: widgets/login-widget/templates/login-widget-template.php:37
 msgid "Log Out"

@@ -14,7 +14,7 @@ Template: adorn
   font-family: 'timeless';
   src: url("../adorn/custom/timeless.woff") format('woff');
 }
-body , h1,h2,h3,h4,h5,h6,p,a, span.item_text, .edge-row-grid-section span, textarea#comment, .edge-woo-single-page .woocommerce-tabs #reviews .comment-respond .comment-reply-title, label, span.edge-out-of-stock, button.frm_button_submit, .edge-woo-single-page .edge-single-product-summary .price .amount, span.posted_in, .edge-shopping-cart-dropdown .edge-cart-bottom,  .edge-pl-holder .edge-pli-inner .edge-pli-image .edge-pli-out-of-stock, font, p span {
+body , h1,h2,h3,h4,h5,h6,p,a, span.item_text, .edge-row-grid-section span, textarea#comment, .edge-woo-single-page .woocommerce-tabs #reviews .comment-respond .comment-reply-title, label, span.edge-out-of-stock, button.frm_button_submit, .edge-woo-single-page .edge-single-product-summary .price .amount, span.posted_in, .edge-shopping-cart-dropdown .edge-cart-bottom,  .edge-pl-holder .edge-pli-inner .edge-pli-image .edge-pli-out-of-stock, font, p span, span.edge-logged-in-user-name, .edge-login-register-widget .edge-logged-in-user .edge-logged-in-user-inner>span {
 	  font-family: 'timeless'!important;
 
 }
@@ -177,6 +177,14 @@ button.frm_button_submit:hover {
 .edge-footer-top-inner.edge-grid {
     display: none!important;
 }
+body > div > div.edge-wrapper-inner > div.edge-content > div > div.edge-container > div > div > div.edge-sidebar-holder.edge-grid-col-4.edge-grid-col-pull-8 > aside > div.widget.woocommerce.widget_price_filter > form > div > div.price_slider_amount > button{
+	background:#caa975!important;
+	color:#fff;
+}
+body > div > div.edge-wrapper-inner > div.edge-content > div > div.edge-container > div > div > div.edge-sidebar-holder.edge-grid-col-4.edge-grid-col-pull-8 > aside > div.widget.yith-woocommerce-ajax-product-filter.yith-woo-ajax-reset-navigation.yith-woo-ajax-navigation.woocommerce.widget_layered_nav > div > a{
+	color:#212121;
+	background:#fff !important;
+}
 @media only screen and (max-width: 768px){
 	.edge-mobile-header .edge-mobile-logo-wrapper img {
 		height: 80%!important;
@@ -190,4 +198,19 @@ button.frm_button_submit:hover {
     padding-bottom: 0;
     margin-bottom: 20px!important;
 	}
+	.widget.woocommerce.widget_product_search .woocommerce-product-search {
+    width: 100%;
+}
+body > div.edge-wrapper > div.edge-wrapper-inner > header.edge-mobile-header > div.edge-mobile-side-area.opened > div.widget.edge-login-register-widget {
+    margin-bottom: 0!important;
+}
+	.edge-login-register-widget .edge-login-opener {
+    font-size: 12px!important;
+    color: #888888!important;
+}
+}
+#coupon_code{
+	border: 1px solid #d2d2d2;
+    border-top: none;
+    padding: .5rem;
 }
