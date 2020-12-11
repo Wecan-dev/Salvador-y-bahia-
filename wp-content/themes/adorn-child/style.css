@@ -18,6 +18,12 @@ body , h1,h2,h3,h4,h5,h6,p,a, span.item_text, .edge-row-grid-section span, texta
 	  font-family: 'timeless'!important;
 
 }
+.woocommerce-MyAccount-content {
+    font-size: 17px;
+}
+.u-column1.col-1.woocommerce-Address,  .edge-woocommerce-page.woocommerce-account .woocommerce .col2-set.addresses .col-2 {
+    width: 100%!important;
+}
 /*.edge-pl-holder.edge-standard-layout.edge-no-space.edge-three-columns.edge-info-on-image {
     display: none;
 }*/
@@ -185,7 +191,18 @@ body > div > div.edge-wrapper-inner > div.edge-content > div > div.edge-containe
 	color:#212121;
 	background:#fff !important;
 }
+@media (min-width: 0px) and (max-width: 767px){
+	.woocommerce-page .edge-content a.added_to_cart .wc-forward:not(.added_to_cart):not(.checkout-button), .woocommerce-page .edge-content a.button, .woocommerce-page .edge-content button[type=submit], .woocommerce-page .edge-content input[type=submit], div.woocommerce a.added_to_cart .wc-forward:not(.added_to_cart):not(.checkout-button), div.woocommerce a.button, div.woocommerce button[type=submit], div.woocommerce input[type=submit]{
+		margin-bottom: 10px !important;
+    width: 100%!important;
+	    text-align: center !important;
+	}
+	
+	
+}
+
 @media only screen and (max-width: 768px){
+	
 	.edge-mobile-header .edge-mobile-logo-wrapper img {
 		height: 80%!important;
 	}
@@ -214,3 +231,24 @@ body > div.edge-wrapper > div.edge-wrapper-inner > header.edge-mobile-header > d
     border-top: none;
     padding: .5rem;
 }
+button.woocommerce-button.button.woocommerce-form-login__submit {
+	width: fit-content!important;
+	}
+body > div > div.edge-wrapper-inner > div.edge-content > div > div.edge-container.edge-default-page-template > div > div > div > div > ul > li.order > strong, body > div > div.edge-wrapper-inner > div.edge-content > div > div.edge-container.edge-default-page-template > div > div > div > div > ul > li.date > strong,body > div > div.edge-wrapper-inner > div.edge-content > div > div.edge-container.edge-default-page-template > div > div > div > div > ul > li.total > strong > span, body > div > div > div.edge-content > div > div.edge-container.edge-default-page-template > div > div > div > div > ul > li.method > strong {
+	padding-left: 10px!important;
+}
+form.woocommerce-form.woocommerce-form-login.login {
+    padding-bottom: 0px!important;
+}
+.woocommerce-message.woocommerce-message--info.woocommerce-Message.woocommerce-Message--info.woocommerce-info {
+    display: flex!important;
+    flex-direction: column!important;
+    margin: 10px!important;
+    justify-content: center!important;
+    text-align: center!important;
+}
+.woocommerce-message.woocommerce-message--info.woocommerce-Message.woocommerce-Message--info.woocommerce-info a {
+    font-size: 10px!important;
+    padding: 0px;
+}
+
