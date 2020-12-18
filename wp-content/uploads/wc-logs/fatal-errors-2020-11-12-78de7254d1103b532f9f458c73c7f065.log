@@ -1,8 +1,0 @@
-2020-11-12T18:33:16+00:00 CRITICAL Object of class WP_Error could not be converted to string en /opt/lampp/htdocs/bahia/wp-content/themes/adorn/framework/modules/woocommerce/shortcodes/product-list/product-list.php en la línea 561
-
-2020-11-12T18:38:53+00:00 CRITICAL Object of class WP_Error could not be converted to string en /opt/lampp/htdocs/bahia/wp-content/themes/adorn/framework/modules/woocommerce/shortcodes/product-list/product-list.php en la línea 561
-
-2020-11-12T18:39:47+00:00 CRITICAL Object of class WP_Error could not be converted to string en /opt/lampp/htdocs/bahia/wp-content/themes/adorn/framework/modules/woocommerce/shortcodes/product-list/product-list.php en la línea 561
-
-2020-11-12T18:40:31+00:00 CRITICAL Object of class WP_Error could not be converted to string en /opt/lampp/htdocs/bahia/wp-content/themes/adorn/framework/modules/woocommerce/shortcodes/product-list/product-list.php en la línea 561
-
